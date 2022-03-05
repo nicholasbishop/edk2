@@ -1,0 +1,28 @@
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = Bug
+  FILE_GUID                      = 13619afc-151c-4310-9f3a-375ae45979a9
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  Bug.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  
+[Guids]
+
+[Ppis]
+
+[Protocols]
+gEfiMpServiceProtocolGuid
+
+[FeaturePcd]
+
+[Pcd]

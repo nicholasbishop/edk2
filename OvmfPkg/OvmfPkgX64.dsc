@@ -662,6 +662,8 @@
 [Components]
   OvmfPkg/ResetVector/ResetVector.inf
 
+  Bug/Bug.inf
+
   #
   # SEC Phase modules
   #
